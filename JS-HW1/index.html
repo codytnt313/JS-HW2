@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="addTabFocus()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" alt="Sleeping Puppy" src="https://images.unsplash.com/photo-1575383095193-52195a64e3a6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2xlZXBpbmclMjBwdXBweXxlbnwwfHwwfHx8MA%3D%3D" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" alt="Puppy in the Grass" src="https://thumbs.dreamstime.com/b/running-puppy-spring-grass-outdoor-cute-dog-playing-nature-background-outside-city-adorable-young-doggy-378655969.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" alt="Puppy with Glasses" src="https://i.pinimg.com/236x/50/13/35/501335881ff3fe6198d45fe3d0320738.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
